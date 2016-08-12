@@ -1,0 +1,46 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${3:className}
+ *
+ * ${4:[description]}
+ *
+ * @author      Mark Tyrrell - BrightGen
+ * @date        ${5:01-01-1990}
+ *
+ * @changes
+ * ${5:01-01-1990} MTYR  Changes made...
+ *
+ */
+${1:@IsTest}
+${2:[private | public | global]} class ${3}
+{
+
+    /**
+     * Constructor with no args
+     */
+    ${2} ${3}()
+    {
+        this(default_args);
+    }
+
+    /**
+     * Constructor with args
+     */
+    ${2} ${3}(${6:args})
+    {
+        ${7}
+    }
+
+    /**
+     * Methods...
+     */
+
+    ${8}
+
+}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.apex</scope>
+    <description>New class</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Set<${1:Id}> ${2:var} = new Set<${1:Id}>(${3});
+]]></content>
+    <tabTrigger>Set</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Set variable</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+private static testMethod void test${1:MethodName}()
+{
+    /** setup data */
+    ${2}
+
+    /** run test */
+    Test.startTest();
+        /** test logic here */
+    Test.stopTest();
+
+    /** assert results */
+    System.assertEquals(expectedResult, actualResult);
+}
+]]></content>
+    <tabTrigger>testMethod</tabTrigger>
+    <scope>source.apex</scope>
+    <description>new testMethod</description>
+</snippet>

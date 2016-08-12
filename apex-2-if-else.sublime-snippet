@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+if (${1})
+{
+    ${2}
+}
+else
+{
+    ${3}
+}
+]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.apex</scope>
+    <description>if (boolean_condition) else</description>
+</snippet>

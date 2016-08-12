@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+for (${1:Integer i = 0}; ${2:i < 10}; ${3:i++})
+{
+    ${4}
+}
+]]></content>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.apex</scope>
+    <description>for (initialization; boolean_exit_condition; increment)</description>
+</snippet>

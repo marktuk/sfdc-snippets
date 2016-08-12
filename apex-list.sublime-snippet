@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+List<${1:sObject}> ${2:var} = new List<${1:sObject}>(${3});
+]]></content>
+    <tabTrigger>List</tabTrigger>
+    <scope>source.apex</scope>
+    <description>List variable</description>
+</snippet>

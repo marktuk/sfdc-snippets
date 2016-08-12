@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<apex:stylesheet value="{!URLFOR(\$Resource.${1:Name},'${2:css/stylesheet.css}')}" />
+]]></content>
+    <tabTrigger>css</tabTrigger>
+    <scope>text.html</scope>
+    <description>stylesheet from static resource</description>
+</snippet>

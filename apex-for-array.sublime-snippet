@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+for (${1:variable} : ${2:list_or_set})
+{
+    ${3}
+}
+]]></content>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.apex</scope>
+    <description>for (variable : array_or_set)</description>
+</snippet>

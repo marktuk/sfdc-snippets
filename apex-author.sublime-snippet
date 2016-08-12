@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:[name]}
+ *
+ * ${2:[description]}
+ *
+ * @author      Mark Tyrrell - BrightGen
+ * @date        ${3:DD-MM-YY}
+ *
+ * @changes
+ * ${3} MT  Changes made...
+ *
+ */
+${4}
+]]></content>
+    <tabTrigger>author</tabTrigger>
+    <scope>source.apex</scope>
+    <description>author block</description>
+</snippet>

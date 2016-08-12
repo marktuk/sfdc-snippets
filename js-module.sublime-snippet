@@ -1,0 +1,64 @@
+<snippet>
+    <content><![CDATA[
+/** http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html */
+
+/**
+ * ${1:moduleName}.js
+ *
+ * ${2:[description]}
+ *
+ * @author      Mark Tyrrell - BrightGen
+ * @date        ${3:01-01-1990}
+ *
+ * @changes
+ * ${3:01-01-1990} MTYR  Changes made...
+ *
+ */
+var ${1:moduleName} = (function()
+{
+
+    /** private vars */
+    var namespace = '${1:moduleName}'; // used for namespacing bind events
+
+    return {
+        /** public vars */
+        debug: false, // set this to true to enable console debug messages
+
+        /**
+         * init function
+         * page initialisation logic goes here.
+         */
+        init: function()
+        {
+            this.bindEvents();
+        },
+
+        /**
+         * bind all events
+         */
+        bindEvents: function()
+        {
+
+        },
+
+        /**
+         * new function
+         */
+        newFunction: function()
+        {
+            ${4}
+
+            if (this.debug)
+            {
+                console.log('debug msg here');
+            }
+        }
+
+    };
+
+}());
+]]></content>
+    <tabTrigger>module</tabTrigger>
+    <scope>source.js</scope>
+    <description>New module</description>
+</snippet>
